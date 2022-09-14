@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&family=Montserrat:wght@300;600&display=swap');
+
+* {margin: 0; padding: 0}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 100%;
+    background-color: #f0f0f0;
+    margin: 32px 96px;
+}
+
+h1, h2, h3 {
+    font-family: 'Federo', sans-serif;
+    text-transform: uppercase;
+    font-size: 7.7em;
+    
+}
+
+h2 {
+    font-size: 5.6em;
+    margin-top: 96px;
+}
+
+ul {list-style-type: none;}
+
+li {display: inline;}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 16px;;
+    border-bottom: 4px solid #858585;
+}
+
+.nav__Item {color: black;}
+
+.logo {
+    width: 100px;
+}
+
+
+
+.landing {
+    color: white;
+    background-image:url(../imagenes/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 216px;
+}
+
+.landing__Subt {
+    font-size: 2.5em;
+    margin-top: 50px;
+    margin-bottom: 180px;
+}
+
+.landing__Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 16px;;
+}
+
+.landing__NavI {color:white;}
+
+
+
+.about__ST {
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: 28px;
+}
+
+.about__P {
+    font-size: 2em;
+    margin-top: 56px;
+    width: 1308px;
+}
+
+.about__Redes {
+    width: 48px;
+    margin-top: 128px;
+}
+
+
+
+label {
+    font-size: 1.25em;
+}
+
+input[type=text] {
+    width: 420px;
+    height: 48px;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    padding-top:5px;
+}
+
+input[name=mensaje] {
+    width: 856px;
+    height: 187px;
+}
+
+input[type=submit] {
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 210px;
+    height: 48px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.contact__Redes {
+    width: 48px;
+    margin-top: 24px;
+}
+
+
+
+.galeria {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    width:448px;
+    border: 5px solid #858585;
+    margin-top: 48px;
+}
+
+.galeria__Titulo {
+    font-size:2.25em;
+    margin-top: 24px;
+}
+
+.galeria__Texto {
+    font-size: 1.5em;
+    margin-top: 8px;
+}
