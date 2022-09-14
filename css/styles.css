@@ -10,14 +10,13 @@ body {
     margin: 32px 96px;
 }
 
-h1, h2, h3 {
+h1, h3 {
     font-family: 'Federo', sans-serif;
     text-transform: uppercase;
     font-size: 7.7em;
-    
 }
 
-h2 {
+.titulo {
     font-size: 5.6em;
     margin-top: 96px;
 }
