@@ -5,21 +5,12 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: 100%;
+    font-size: 30%;
     background-color: #f0f0f0;
-    margin: 32px 96px;
+    margin: 8px 16px;
 }
 
-h1, h3 {
-    font-family: 'Federo', sans-serif;
-    text-transform: uppercase;
-    font-size: 7.7em;
-}
 
-.titulo {
-    font-size: 5.6em;
-    margin-top: 96px;
-}
 
 ul {list-style-type: none;}
 
@@ -36,92 +27,112 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding-bottom: 16px;;
-    border-bottom: 4px solid #858585;
+    padding-bottom: 8px;;
+    border-bottom: 1px solid #858585;
 }
 
 .nav__Item {color: black;}
 
 .logo {
-    width: 100px;
+    width: 32px;
+}
+
+
+
+h1, h3 {
+    font-family: 'Federo', sans-serif;
+    text-transform: uppercase;
+    font-size: 6em;
+    font-weight: 400;
+}
+
+.titulo {
+    font-size: 4.5em;
+    margin-top: 32px;
 }
 
 
 
 .landing {
     color: white;
-    background-image:url(../imagenes/fondo.png);
+    background-image: url(../imagenes/fondola.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 216px;
+    margin-top: 104px;
 }
 
 .landing__Subt {
-    font-size: 2.5em;
-    margin-top: 50px;
-    margin-bottom: 180px;
+    font-size: 2em;
+    margin-top: 16px;
 }
 
 .landing__Nav {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding-bottom: 16px;;
+    margin-top: 176px;
+    margin-bottom: 272px;
 }
 
 .landing__NavI {color:white;}
 
 
 
+.about {width: 80%;}
+
 .about__ST {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 300;
-    margin-top: 28px;
+    margin-top: 16px;
 }
 
 .about__P {
-    font-size: 2em;
-    margin-top: 56px;
-    width: 1308px;
+    font-size: 1.5em;
+    margin-top: 24px;
 }
 
 .about__Redes {
-    width: 48px;
-    margin-top: 128px;
+    width: 24px;
+    margin-top: 96px;
 }
 
 
 
-label {
-    font-size: 1.25em;
+form {
+    margin-top: 32px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr) 2.5fr;
+    grid-row-gap: 8px;
 }
+
+label {font-size: 2em;}
 
 input[type=text] {
-    width: 420px;
-    height: 48px;
+    width: 100%;
+    height: 24px;
     border: 1px solid #C4C4C4;
     border-radius: 5px;
-    padding-top:5px;
+    margin-top:4px;
 }
 
 input[name=mensaje] {
-    width: 856px;
-    height: 187px;
+    width: 100%;
+    height: 96px;
 }
 
 input[type=submit] {
     text-transform: uppercase;
+    font-size: 2em;
     font-weight: 600;
-    width: 210px;
-    height: 48px;
+    width: 33.33%;
+    height: 24px;
     color: white;
     background-color: black;
     border-radius: 5px;
-    margin-top: 25px;
 }
 
 .contact__Redes {
-    width: 48px;
+    width: 24px;
     margin-top: 24px;
 }
 
@@ -129,22 +140,116 @@ input[type=submit] {
 
 .galeria {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .galeria img {
-    width:448px;
-    border: 5px solid #858585;
-    margin-top: 48px;
+    width:280px;
+    border: 3px solid #858585;
+    margin-top: 32px;
 }
 
 .galeria__Titulo {
-    font-size:2.25em;
-    margin-top: 24px;
+    font-size: 3.5em;
+    margin-top: 16px;
 }
 
 .galeria__Texto {
-    font-size: 1.5em;
-    margin-top: 8px;
+    font-size: 2.5em;
+    margin-top: 4px;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+    body {font-size: 70%; margin: 16px 32px;}
+    
+    .navigation {padding-bottom: 16px; border-bottom: 2px solid #858585;}
+    .logo {width: 64px;}
+
+    .titulo {margin-top: 72px;}
+
+    .landing {margin-top: 176px;}
+    .landing__Subt {margin-top: 40px;}
+    .landing__Nav {margin-top: 184px; margin-bottom: 432px;}
+
+    .about__ST {margin-top: 40px;}
+    .about__P {margin-top: 48px;}
+    .about__Redes {width: 48px; margin-top: 112px;}
+
+    form {
+        margin-top: 40px;
+        width: 80%;
+        grid-row-gap: 16px;
+    }
+    label {font-size: 1.5em;}
+    input[type=text] {
+        width: 100%;
+        height: 32px;
+        border: 1px solid #C4C4C4;
+        margin-top:4px;
+    }
+    input[name=mensaje] {width: 100%; height: 120px;}
+    input[type=submit] {font-size: 1.5em; height: 32px;}
+    .contact__Redes {width: 40px; margin-top: 40px;}
+
+    .galeria {
+        display: grid;
+        grid-template-columns: 320px 320px;
+        justify-content: space-between;
+    }
+    .galeria img {
+        width:320px;
+        border: 3px solid #858585;
+        margin-top: 48px;
+    }
+    .galeria__Titulo {font-size:2.5em;}
+    .galeria__Texto {font-size: 1.5em;}
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+    body {font-size: 100%; margin: 16px 40px;}
+    
+    a {font-size: 1.2em;}
+    .logo {width: 80px;}
+
+    .titulo {margin-top: 88px;}
+
+    .landing {margin-top: 192px;}
+    .landing__Subt {margin-top: 24px;}
+    .landing__Nav {margin-top: 96px;}
+
+    .about__ST {margin-top: 56px;}
+    .about__P {margin-top: 64px;}
+    .about__Redes {width: 56px; margin-top: 128px;}
+
+    form {
+        margin-top: 56px;
+        width: 50%;
+        grid-template-rows: repeat(2, 1fr) 2fr;
+        grid-template-areas: "nombre apellido" "email asunto" "mensaje mensaje" "enviar none";
+        grid-row-gap: 24px;
+        grid-column-gap: 24px;
+    }
+    .form__Nombre {grid-area: nombre;}
+    .form__Apellido {grid-area: apellido;}
+    .form__Email {grid-area: email;}
+    .form__Asunto {grid-area: asunto;}
+    .form__Mensaje {grid-area: mensaje;}
+    .form__Enviar {grid-area: enviar;}
+    label {font-size: 1em;}
+    input[name=mensaje] {height: 96px;}
+    input[type=submit] {font-size: 1em; width: 50%}
+    .contact__Redes {width: 48px;}
+
+    .galeria {grid-template-columns: 350px 350px 350px;}
+    .galeria img {width:350px; margin-top: 64px;}
 }
