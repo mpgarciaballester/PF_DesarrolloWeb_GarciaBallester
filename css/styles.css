@@ -18,7 +18,7 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .navigation {
     display: flex;
@@ -29,8 +29,13 @@ a {
 }
 .nav__Item {color: black;}
 .logo {
-    width: 32px;
+    width: 24px;
 }
+.navI {padding: 8px;}
+.logo__Div {padding:8px;}
+.navI:hover {background-color: #D9D9D9; border-radius: 5px;}
+.nav__Item:hover {color:black;}
+.logo__Div:hover {background-color: #D9D9D9; border-radius: 10px;}
 
 
 
@@ -65,82 +70,46 @@ h1, h3 {
     margin-top: 176px;
     margin-bottom: 272px;
 }
-.landing__NavI {color:white;}
+.l__NavItem {color:white;}
+.l__NavI {padding: 8px;}
+.l__Logo {padding:8px;}
+.l__NavI:hover {background-color: #A3A3A3; border-radius: 5px;}
+.l__NavItem:hover {color:white;}
+.l__Logo:hover {background-color: #A3A3A3; border-radius: 10px;}
 
 
 
-.about {width: 80%;}
 .about__ST {
     font-size: 2.5em;
     font-weight: 300;
     margin-top: 16px;
 }
 .about__P {
-    font-size: 1.5em;
+    font-size: 2.25em;
     margin-top: 24px;
 }
 .about__Redes {
     width: 24px;
-    margin-top: 96px;
+    margin-top: 72px;
 }
 
 
 
-form {
-    margin-top: 32px;
-    display: grid;
-    grid-template-rows: repeat(4, 1fr) 2.5fr;
-    grid-row-gap: 8px;
-}
 label {font-size: 2em;}
-input[type=text] {
-    width: 100%;
-    height: 24px;
-    border: 1px solid #C4C4C4;
-    border-radius: 5px;
-    margin-top:4px;
-}
-input[name=mensaje] {
-    width: 100%;
-    height: 96px;
-}
 input[type=submit] {
     text-transform: uppercase;
-    font-size: 2em;
     font-weight: 600;
-    width: 33.33%;
-    height: 24px;
-    color: white;
-    background-color: black;
-    border: none;
-    border-radius: 5px;
 }
 .contact__Redes {
-    width: 24px;
+    width: 32px;
     margin-top: 24px;
 }
 
 
 
-.galeria {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.galeria img {
-    width:280px;
-    border: 3px solid #858585;
-    margin-top: 32px;
-}
-.galeria__Titulo {
-    font-size: 3.5em;
-    margin-top: 16px;
-}
-.galeria__Texto {
-    font-size: 2.5em;
-    margin-top: 4px;
-}
+.galeria__Img {border: 3px solid #858585;}
+.galeria__Titulo {font-size: 3.5em; margin-top: 16px;}
+.galeria__Texto {font-size: 2.5em; margin-top: 4px;}
 
 
 
@@ -150,7 +119,7 @@ input[type=submit] {
     body {font-size: 70%; margin: 16px 32px;}
     
     .navigation {padding-bottom: 16px; border-bottom: 2px solid #858585;}
-    .logo {width: 64px;}
+    .logo {width: 56px;}
 
     .titulo {margin-top: 72px;}
 
@@ -159,35 +128,12 @@ input[type=submit] {
     .landing__Nav {margin-top: 184px; margin-bottom: 432px;}
 
     .about__ST {margin-top: 40px;}
-    .about__P {margin-top: 48px;}
-    .about__Redes {width: 48px; margin-top: 112px;}
+    .about__P {margin-top: 48px; font-size: 1.5em;}
+    .about__Redes {width: 48px; margin-top: 80px;}
 
-    form {
-        margin-top: 40px;
-        width: 80%;
-        grid-row-gap: 16px;
-    }
     label {font-size: 1.5em;}
-    input[type=text] {
-        width: 100%;
-        height: 32px;
-        border: 1px solid #C4C4C4;
-        margin-top:4px;
-    }
-    input[name=mensaje] {width: 100%; height: 120px;}
-    input[type=submit] {font-size: 1.5em; height: 32px;}
     .contact__Redes {width: 40px; margin-top: 40px;}
 
-    .galeria {
-        display: grid;
-        grid-template-columns: 320px 320px;
-        justify-content: space-between;
-    }
-    .galeria img {
-        width:320px;
-        border: 3px solid #858585;
-        margin-top: 48px;
-    }
     .galeria__Titulo {font-size:2.5em;}
     .galeria__Texto {font-size: 1.5em;}
 }
@@ -199,49 +145,21 @@ input[type=submit] {
 @media (min-width: 1200px) {
     body {font-size: 100%; margin: 16px 40px;}
     
-    a {font-size: 1.2em;}
-    .navI {padding: 8px;}
-    .logo__Div {padding:8px;}
-    .logo {width: 80px;}
-    .navI:hover {background-color: #D9D9D9; border-radius: 5px;}
-    .logo__Div:hover {background-color: #D9D9D9; border-radius: 10px;}
+    .logo {width: 72px;}
 
     .titulo {margin-top: 88px;}
 
     .landing {margin-top: 192px;}
     .landing__Subt {margin-top: 24px;}
     .landing__Nav {margin-top: 96px;}
-    .l__NavI {padding: 8px;}
-    .l__Logo {padding:8px;}
-    .l__NavI:hover {background-color: #A3A3A3; border-radius: 5px;}
-    .l__Logo:hover {background-color: #A3A3A3; border-radius: 10px;}
 
     .about__ST {margin-top: 56px;}
     .about__P {margin-top: 64px;}
-    .about__Redes {width: 56px; margin-top: 128px;}
+    .about__Redes {width: 56px; margin-top: 112px;}
     .about__Redes:hover {transform: scale(0.8, 0.8);}
 
-    form {
-        margin-top: 56px;
-        width: 50%;
-        grid-template-rows: repeat(2, 1fr) 2fr;
-        grid-template-areas: "nombre apellido" "email asunto" "mensaje mensaje" "enviar none";
-        grid-row-gap: 24px;
-        grid-column-gap: 24px;
-    }
-    .form__Nombre {grid-area: nombre;}
-    .form__Apellido {grid-area: apellido;}
-    .form__Email {grid-area: email;}
-    .form__Asunto {grid-area: asunto;}
-    .form__Mensaje {grid-area: mensaje;}
-    .form__Enviar {grid-area: enviar;}
     label {font-size: 1em;}
-    input[name=mensaje] {height: 96px;}
-    input[type=submit] {font-size: 1em; width: 50%}
     input[type=submit]:hover {background-color: #858585;}
     .contact__Redes {width: 48px;}
     .contact__Redes:hover {transform: scale(0.8, 0.8);}
-
-    .galeria {grid-template-columns: 350px 350px 350px;}
-    .galeria img {width:350px; margin-top: 64px;}
 }
