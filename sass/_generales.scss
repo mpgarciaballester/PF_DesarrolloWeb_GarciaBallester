@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&family=Montserrat:wght@300;600&display=swap');
+
+* {margin: 0; padding: 0}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 30%;
+    background-color: #f0f0f0;
+    margin: 8px 16px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    li {
+        div {
+            padding: 8px;
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 1.3em;
+                img {width: 24px;}
+            }
+        }
+        div:hover {border-radius: 5px;}
+    }
+}
+
+h1, h3 {
+    font-family: 'Federo', sans-serif;
+    text-transform: uppercase;
+    font-size: 6em;
+    font-weight: 400;
+}
+
+.titulo {
+    font-size: 4.5em;
+    margin-top: 32px;
+}
+
+.subtitulo {
+    font-size: 2.5em;
+    font-weight: 300;
+    margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 70%;
+        margin: 16px 32px;
+    }
+    
+    ul {
+        li {
+            div {
+                a {
+                    img {width: 56px;}
+                }
+            }
+        }
+    }
+
+    .titulo {margin-top: 72px;}
+
+    .subtitulo {margin-top: 40px;}
+}
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 100%;
+        margin: 16px 40px;
+    }
+    
+    ul {
+        li {
+            div {
+                a {
+                    img {width: 72px;}
+                }
+            }
+        }
+    }
+
+    .titulo {margin-top: 88px;}
+
+    .subtitulo {margin-top: 56px;}
+}
