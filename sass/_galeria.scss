@@ -1,18 +1,14 @@
 .galeria {
-    img {border: 3px solid #858585;}
-    h3 {
-        font-size: 3.5em;
-        margin-top: 16px;
-    }
-    p {
-        font-size: 2.5em;
-        margin-top: 4px;
-    }
+    img {border: 3px solid $g_oscuro;}
+    h2 {@include font_mtop(3.5em, 16px);}
+    p {@include font_mtop(2.5em, 4px);}
+    padding-bottom: 24px;
 }
 
 @media (min-width: 768px) {
     .galeria {
-        h3 {font-size:2.5em;}
+        h2 {font-size:2.5em;}
         p {font-size: 1.5em;}
+        padding-bottom: 56px;
     }
 }

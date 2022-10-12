@@ -1,37 +1,31 @@
 .landing {
     color: white;
-    background-image: url(../imagenes/fondola.png);
+    background-image: url(../imagenes/fondo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 104px;
-    h2 {
-        font-size: 2em;
-        margin-top: 16px;
+    
+    .navbar {
+        a {color: $g_oscuro;}
+        a:hover {color: #D9D9D9;}
     }
-    ul {
-        margin-top: 176px;
-        margin-bottom: 272px;
-        a {color:white;}
-        a:hover {color:white;}
-        div:hover {background-color: #A3A3A3;}
-    }
+
+    h1{margin-top: 112px;}
 }
+
+
 
 @media (min-width: 768px) {
     .landing {
-        margin-top: 176px;
+        h1{margin-top: 176px;}
         h2 {margin-top: 40px;}
-        ul {
-            margin-top: 184px;
-            margin-bottom: 432px;
-        }
     }
 }
 
+
+
 @media (min-width: 1200px) {
     .landing {
-        margin-top: 192px;
+        h1 {margin-top: 192px;}
         h2 {margin-top: 24px;}
-        ul {margin-top: 96px;}
     }
 }
