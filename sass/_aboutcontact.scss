@@ -1,5 +1,6 @@
 .about {
-    p {@include font_mtop(2.5em, 24px);}
+    p {font-size: 2.5em;}
+    .primerP {margin-top: 24px;}
 }
 
 form {
@@ -19,7 +20,8 @@ form {
 @media (min-width: 768px) {
 
     .about {
-        p {@include font_mtop(1.5em, 48px);}
+        p {font-size: 1.5em;}
+        .primerP {margin-top: 48px;}
     }
 
     form {
@@ -30,7 +32,7 @@ form {
 
 @media (min-width: 1200px) {
     .about {
-        p {margin-top: 64px;}
+        .primerP {margin-top: 64px;}
     }
 
     form {margin-top: 24px;}

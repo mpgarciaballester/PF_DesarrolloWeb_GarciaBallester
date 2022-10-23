@@ -179,6 +179,8 @@ ul li div a {
 }
 .about p {
   font-size: 2.5em;
+}
+.about .primerP {
   margin-top: 24px;
 }
 
@@ -201,6 +203,8 @@ form input[type=submit]:hover {
 @media (min-width: 768px) {
   .about p {
     font-size: 1.5em;
+  }
+  .about .primerP {
     margin-top: 48px;
   }
   form {
@@ -211,7 +215,7 @@ form input[type=submit]:hover {
   }
 }
 @media (min-width: 1200px) {
-  .about p {
+  .about .primerP {
     margin-top: 64px;
   }
   form {
@@ -220,9 +224,6 @@ form input[type=submit]:hover {
 }
 .galeria {
   padding-bottom: 24px;
-}
-.galeria img {
-  border: 3px solid #858585;
 }
 .galeria h2 {
   font-size: 3.5em;
