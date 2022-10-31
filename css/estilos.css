@@ -39,6 +39,11 @@ h3 {
   font-size: 3em;
 }
 
+.btn-primary {
+  background-color: black;
+  border: none;
+}
+
 @media (min-width: 768px) {
   body {
     font-size: 70%;
@@ -233,6 +238,16 @@ form input[type=submit]:hover {
   font-size: 2.5em;
   margin-top: 4px;
 }
+.galeria .modal-body {
+  display: block;
+}
+.galeria .modal-body .torreP {
+  margin: 16px;
+}
+.galeria .modal-body .carousel-control-prev-icon, .galeria .modal-body .carousel-control-next-icon {
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+}
 
 @media (min-width: 768px) {
   .galeria {
@@ -243,5 +258,13 @@ form input[type=submit]:hover {
   }
   .galeria p {
     font-size: 1.5em;
+  }
+  .galeria .torreP {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 1200px) {
+  .galeria .modal-body .torreP {
+    margin: 48px;
   }
 }/*# sourceMappingURL=estilos.css.map */

@@ -3,12 +3,29 @@
     h2 {@include font_mtop(3.5em, 16px);}
     p {@include font_mtop(2.5em, 4px);}
     padding-bottom: 24px;
+    .modal-body {
+        display:block;
+        .torreP {margin: 16px;}
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            background-color: rgba(0,0,0,50);
+            border-radius: 50%;
+        }
+    }
 }
 
 @media (min-width: 768px) {
     .galeria {
         h2 {font-size:2.5em;}
-        p {font-size: 1.5em;}
+        p {font-size:1.5em;}
+        .torreP {font-size: 1.5em;}
         padding-bottom: 56px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .galeria {
+        .modal-body {
+            .torreP {margin: 48px;}
+        }
     }
 }

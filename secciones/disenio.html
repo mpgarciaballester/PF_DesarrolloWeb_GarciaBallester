@@ -49,69 +49,330 @@
           </nav>
     </header>
     
+
     <section class="container-fluid galeria">
         <h1 class="titulo">Diseño</h1>
 
         <div class="row">
 
+            <!-- Item 1-->
             <div class="col-xs-12 col-sm-6 col-lg-4 mt-4">
-                <img src="../imagenes/galeria__Img.png" class="d-block w-100" alt="coso">
-                <h2>título</h2>
-                <p>Area de diseño | 2022</p>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Launch demo modal
-                </button>
-  
+                <img src="../imagenes/torre0.jpg" class="d-block w-100" alt="coso">
+                <h2>La torre en punto</h2>
+                <p>Infografía | 2022</p>
+
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#torreModal">Más</button>
+                <div class="modal fade" id="torreModal" tabindex="-1" aria-labelledby="torreModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
                     <div class="modal-content">
                         <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <h3 class="modal-title" id="torreModalLabel">La torre en punto</h3>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                        ...
+                            <p class="torreP">Infografía acerca de la Torre Monumental. Trabajo realizado con Nahir Leites Chico y Delfina Sinila.</p>
+                            <img src="../imagenes/torre.jpg" class="d-block w-100 mt-4" alt="coso">
                         </div>
                     </div>
                     </div>
                 </div>
+
             </div>
 
+            <!-- Item 2-->
             <div class="col-xs-12 col-sm-6 col-lg-4 mt-4">
-                <img src="../imagenes/galeria__Img.png" class="d-block w-100" alt="coso">
-                <h2>título</h2>
-                <p>Area de diseño | 2022</p>
+                <img src="../imagenes/batcave0.jpg" class="d-block w-100" alt="coso">
+                <h2>The batcave</h2>
+                <p>Scroll informativo | 2022</p>
+
+                <!-- Modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#batcaveModal">Más</button>
+                <div class="modal fade" id="batcaveModal" tabindex="-1" aria-labelledby="batcaveModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h3 class="modal-title" id="batcaveModalLabel">The batcave</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Scroll informativo acerca de un bar nocturno de los 80s que fue fundamental para el desarrollo de la subcultura gótica.</p>
+                            <img src="../imagenes/batcave.jpg" class="d-block w-100 mt-4" alt="coso">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
             </div>
 
+            <!-- Item 3-->
             <div class="col-xs-12 col-sm-6 col-lg-4 mt-4">
-                <img src="../imagenes/galeria__Img.png" class="d-block w-100" alt="coso">
-                <h2>título</h2>
-                <p>Area de diseño | 2022</p>
+                <img src="../imagenes/asiento0.jpg" class="d-block w-100" alt="coso">
+                <h2>Triswing</h2>
+                <p>Mobiliario urbano | 2021</p>
+
+                <!-- Modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#asientoModal">Más</button>
+                <div class="modal fade" id="asientoModal" tabindex="-1" aria-labelledby="asientoModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h3 class="modal-title" id="asientoModalLabel">Triswing</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Silla-hamaca para parques de la Ciudad de Buenos Aires. Trabajo realizado con Abril Sol Rodriguez.</p>
+
+                            <!-- Carousel -->
+                            <div id="asiento" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#asiento" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#asiento" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#asiento" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                  <button type="button" data-bs-target="#asiento" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                  <button type="button" data-bs-target="#asiento" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="../imagenes/asiento1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/asiento2.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/asiento3.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/asiento4.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/asiento5.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#asiento" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#asiento" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
             </div>
 
+            <!-- Item 4-->
             <div class="col-xs-12 col-sm-6 col-lg-4 mt-4">
-                <img src="../imagenes/galeria__Img.png" class="d-block w-100" alt="coso">
-                <h2>título</h2>
-                <p>Area de diseño | 2022</p>
+                <img src="../imagenes/bolso0.jpg" class="d-block w-100" alt="coso">
+                <h2>Énin</h2>
+                <p>Bolso | 2021</p>
+
+                <!-- Modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bolsoModal">Más</button>
+                <div class="modal fade" id="bolsoModal" tabindex="-1" aria-labelledby="bolsoModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h3 class="modal-title" id="bolsoModalLabel">Énin</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Bolso expandible. Acorde a la consigna, fue diseñado en tyvek para un usuario específico.</p>
+
+                            <!-- Carousel -->
+                            <div id="bolso" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#bolso" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#bolso" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#bolso" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="../imagenes/bolso1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/bolso2.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/bolso3.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#bolso" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#bolso" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
             </div>
 
+            <!-- Item 5-->
             <div class="col-xs-12 col-sm-6 col-lg-4 mt-4">
-                <img src="../imagenes/galeria__Img.png" class="d-block w-100" alt="coso">
-                <h2>título</h2>
-                <p>Area de diseño | 2022</p>
+                <img src="../imagenes/leone0.jpg" class="d-block w-100" alt="coso">
+                <h2>Leone Westerns</h2>
+                <p>Identidad visual | 2020</p>
+
+                <!-- Modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#leoneModal">Más</button>
+                <div class="modal fade" id="leoneModal" tabindex="-1" aria-labelledby="leoneModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h3 class="modal-title" id="leoneModalLabel">Leone Westerns</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Identidad visual para un festival de cine (hipotético) del director Sergio Leone.</p>
+
+                            <!-- Carousel -->
+                            <div id="leone" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#leone" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#leone" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#leone" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                  <button type="button" data-bs-target="#leone" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                  <button type="button" data-bs-target="#leone" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                  <button type="button" data-bs-target="#leone" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                  <button type="button" data-bs-target="#leone" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="../imagenes/leone1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/leone2.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/leone3.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/leone4.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/leone5.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/leone6.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/leone7.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#leone" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#leone" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
             </div>
 
+            <!-- Item 6-->
             <div class="col-xs-12 col-sm-6 col-lg-4 mt-4">
-                <img src="../imagenes/galeria__Img.png" class="d-block w-100" alt="coso">
-                <h2>título</h2>
-                <p>Area de diseño | 2022</p>
+                <img src="../imagenes/labzine0.jpg" class="d-block w-100" alt="coso">
+                <h2>Bohemian Rhapsody</h2>
+                <p>Labzine | 2020</p>
+
+                <!-- Modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#labzineModal">Más</button>
+                <div class="modal fade" id="labzineModal" tabindex="-1" aria-labelledby="labzineModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h3 class="modal-title" id="labzineModalLabel">The batcave</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Labzine de trabajo tipográfico y de imagen, con elementos (paleta, tipografía, información) reduciodos.</p>
+
+                            <!-- Carousel -->
+                            <div id="labzine" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#labzine" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#labzine" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#labzine" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                  <button type="button" data-bs-target="#labzine" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                  <button type="button" data-bs-target="#labzine" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                  <button type="button" data-bs-target="#labzine" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                  <button type="button" data-bs-target="#labzine" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                  <button type="button" data-bs-target="#labzine" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                  <button type="button" data-bs-target="#labzine" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                  <button type="button" data-bs-target="#labzine" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                                  <button type="button" data-bs-target="#labzine" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="../imagenes/labzine1.jpg" class=" mx-auto d-block w-50" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/labzine2.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/labzine3.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/labzine4.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/labzine5.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/labzine6.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/labzine7.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/labzine8.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/labzine9.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/labzine10.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="../imagenes/labzine11.jpg" class="mx-auto d-block w-50 " alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#labzine" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#labzine" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
             </div>
         
         </div>
 
     </section>
+
 
     <footer class="redes">
         <ul>
@@ -120,6 +381,7 @@
             <li><a href="" target="_blank"><img src="../imagenes/linkedin.svg" alt="Linkedin"></a></li>
         </ul>
     </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
