@@ -5,7 +5,6 @@
     padding-bottom: 24px;
     .modal-body {
         display:block;
-        .torreP {margin: 16px;}
         .carousel-control-prev-icon, .carousel-control-next-icon {
             background-color: rgba(0,0,0,50);
             border-radius: 50%;
@@ -22,10 +21,3 @@
     }
 }
 
-@media (min-width: 1200px) {
-    .galeria {
-        .modal-body {
-            .torreP {margin: 48px;}
-        }
-    }
-}

@@ -6,13 +6,6 @@
 form {
     margin-top: 8px;
     label {font-size: 2em;}
-    input[type=submit] {
-        text-transform: uppercase;
-        font-weight: 600;
-        background-color: black;
-        border: none;
-    }
-    input[type=submit]:hover {background-color: $g_oscuro;}
 }
 
 

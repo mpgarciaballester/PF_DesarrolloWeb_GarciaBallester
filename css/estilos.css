@@ -36,12 +36,20 @@ h1, h2, h3 {
 }
 
 h3 {
-  font-size: 3em;
+  font-size: 3.5em;
 }
 
-.btn-primary {
+.btn-dark {
   background-color: black;
   border: none;
+}
+
+.btn-dark:hover {
+  background-color: #858585;
+}
+
+.btn-dark:focus {
+  background-color: #858585;
 }
 
 @media (min-width: 768px) {
@@ -85,7 +93,7 @@ ul li div a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .btn-close {
@@ -195,15 +203,6 @@ form {
 form label {
   font-size: 2em;
 }
-form input[type=submit] {
-  text-transform: uppercase;
-  font-weight: 600;
-  background-color: black;
-  border: none;
-}
-form input[type=submit]:hover {
-  background-color: #858585;
-}
 
 @media (min-width: 768px) {
   .about p {
@@ -241,9 +240,6 @@ form input[type=submit]:hover {
 .galeria .modal-body {
   display: block;
 }
-.galeria .modal-body .torreP {
-  margin: 16px;
-}
 .galeria .modal-body .carousel-control-prev-icon, .galeria .modal-body .carousel-control-next-icon {
   background-color: rgb(0, 0, 0);
   border-radius: 50%;
@@ -261,10 +257,5 @@ form input[type=submit]:hover {
   }
   .galeria .torreP {
     font-size: 1.5em;
-  }
-}
-@media (min-width: 1200px) {
-  .galeria .modal-body .torreP {
-    margin: 48px;
   }
 }/*# sourceMappingURL=estilos.css.map */
